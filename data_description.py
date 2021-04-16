@@ -23,7 +23,7 @@ class DataDescription:
         desc = self.dataframe.describe(include=np.number)
         print('='*5+'Statistics of dataframe'+'='*5+'\n')
         print(desc)
-        print('\n'+'='*5+'Summary of dataframe'+'='*5+'\n')
+        print('\n'+'='*10+'Summary of dataframe'+'='*10+'\n')
         self.dataframe.info()
 
     def showProperty(self):
