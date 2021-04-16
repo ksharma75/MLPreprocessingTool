@@ -5,7 +5,7 @@ class Download:
         self.dataframe=dataframe
 
     def downloadDataframe(self):
-        fileName=input('Enter the filename you want?(Enter -1 to go back):')
+        fileName=input('Enter the filename you want?(Press -1 to go back):')
         if fileName!=-1:
             self.dataframe.to_csv(fileName)
             print(fileName+' created successfully!')
